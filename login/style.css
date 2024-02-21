@@ -1,0 +1,29 @@
+body{
+    background-image: url("../img/bg_cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    position: relative;
+    margin-top: 150px;
+    box-align:center;
+    box-shadow: #333 2px 3px 4px;
+    width:500px;
+    height:600px;
+    border-radius: 20px;
+    background-color:rgba(255,255,255, 0.6);
+}
+.box h2{
+    width:100%;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.box .login-btn{
+    width: 500px;
+}
+
+.box .form-group{
+   padding: 10px;
+}
